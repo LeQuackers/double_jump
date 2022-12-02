@@ -1,0 +1,31 @@
+{
+  "Title": "Double Jump",
+  "Type": "addon",
+  "Org": "quackers",
+  "Ident": "double_jump",
+  "Tags": "doublejump example",
+  "Schema": 1,
+  "HasAssets": false,
+  "AssetsPath": "",
+  "ResourcePaths": null,
+  "HasCode": true,
+  "CodePath": "/code/",
+  "RootNamespace": null,
+  "Metadata": {
+    "PrimaryAsset": "DoubleJump.DoubleJumpItem",
+    "PhysicsMins": "0,0,0",
+    "PhysicsMaxs": "0,0,0",
+    "RenderMins": "0,0,0",
+    "RenderMaxs": "0,0,0",
+    "ParentPackage": "facepunch.sandbox",
+    "Compiler": {
+      "RootNamespace": "DoubleJump",
+      "DefineConstants": "SANDBOX;ADDON;DEBUG",
+      "NoWarn": "1701;1702;1591;"
+    },
+    "Summary": "A test/example of retroactively adding behaviors and networked variables to a pawn.",
+    "Description": "A test/example of retroactively adding behaviors and networked variables to a pawn.",
+    "Public": true,
+    "ReplaceTags": "addon doublejump entity example runtime"
+  }
+}
